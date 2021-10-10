@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#flipbook {
+    width: 550px;
+    height: 750px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+}
+
+.page {
+    background-color: white;
+}
+
+@media only screen and (max-width: 567px) {
+    #flipbook {
+        width: 550px;
+        height: 500;
+    }
+}
+
+
+@media only screen and (max-width: 368px) {
+    body {
+        height: 92vh;
+    }
+
+    #flipbook {
+        width: 350px;
+        height: 580px;
+    }
+}

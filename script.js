@@ -1,0 +1,4 @@
+
+$('#flipbook').turn({
+    display: 'single'
+})
